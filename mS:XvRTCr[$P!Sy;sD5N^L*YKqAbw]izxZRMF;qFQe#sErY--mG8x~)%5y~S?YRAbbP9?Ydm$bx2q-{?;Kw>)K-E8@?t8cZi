@@ -1,0 +1,6 @@
+--[[
+    This is a modified version of the Synapse Script Dumper
+]]
+
+getgenv().DumpScripts = loadstring(game:HttpGet("https://gist.githubusercontent.com/Babyhamsta/7bba9a956bff049e155ebb35c7b2b690/raw/0ccc52acdf5686f6a71f0e025a64a96bc34a3e90/ZoScriptDumper.lua"))()
+getgenv().DumpScripts()
