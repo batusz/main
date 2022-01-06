@@ -1,0 +1,349 @@
+--[[
+Roblox Pet Simulator X Quest Checker
+Pet Simulator X: www.roblox.com/games/6284583030
+Made By  batusd#3009
+This script is open source so READ Batus's TOS: https://raw.githubusercontent.com/batusz/main/roblox/Terms%20Of%20Service
+
+
+
+
+
+
+
+
+
+██████╗░░█████╗░████████╗██╗░░░██╗░██████╗██████╗░░░░██╗░██╗░██████╗░░█████╗░░█████╗░░█████╗░
+██╔══██╗██╔══██╗╚══██╔══╝██║░░░██║██╔════╝██╔══██╗██████████╗╚════██╗██╔══██╗██╔══██╗██╔══██╗
+██████╦╝███████║░░░██║░░░██║░░░██║╚█████╗░██║░░██║╚═██╔═██╔═╝░█████╔╝██║░░██║██║░░██║╚██████║
+██╔══██╗██╔══██║░░░██║░░░██║░░░██║░╚═══██╗██║░░██║██████████╗░╚═══██╗██║░░██║██║░░██║░╚═══██║
+██████╦╝██║░░██║░░░██║░░░╚██████╔╝██████╔╝██████╔╝╚██╔═██╔══╝██████╔╝╚█████╔╝╚█████╔╝░█████╔╝
+╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░░╚═════╝░╚═════╝░╚═════╝░░╚═╝░╚═╝░░░╚═════╝░░╚════╝░░╚════╝░░╚════╝░
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Batus's TOS: https://raw.githubusercontent.com/batusz/main/roblox/Terms%20Of%20Service
+]]
+
+local batusd3009 = Instance.new("ScreenGui")
+local frame1 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local textlabel1 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local title1 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local cizgi1 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local title2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local terta1 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local terta2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local textlabel1_2 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local destroy = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+
+batusd3009.Name = "batusd3009"
+batusd3009.Parent = game.CoreGui
+batusd3009.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+frame1.Name = "frame1"
+frame1.Parent = batusd3009
+frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame1.Position = UDim2.new(0.231762901, 0, 0.352147222, 0)
+frame1.Size = UDim2.new(0, 270, 0, 190)
+
+UICorner.Parent = frame1
+
+textlabel1.Name = "textlabel1"
+textlabel1.Parent = frame1
+textlabel1.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+textlabel1.Position = UDim2.new(0.040740855, 0, 0.0473684222, 0)
+textlabel1.Size = UDim2.new(0, 146, 0, 27)
+textlabel1.Font = Enum.Font.SourceSans
+textlabel1.Text = "Pet Sim X Quest Check"
+textlabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
+textlabel1.TextScaled = true
+textlabel1.TextSize = 14.000
+textlabel1.TextWrapped = true
+
+UICorner_2.Parent = textlabel1
+
+title1.Name = "title1"
+title1.Parent = frame1
+title1.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+title1.Position = UDim2.new(0.040740855, 0, 0.357894719, 0)
+title1.Size = UDim2.new(0, 121, 0, 27)
+title1.Font = Enum.Font.SourceSans
+title1.Text = "Quest Stage :"
+title1.TextColor3 = Color3.fromRGB(255, 255, 255)
+title1.TextScaled = true
+title1.TextSize = 14.000
+title1.TextWrapped = true
+
+UICorner_3.Parent = title1
+
+cizgi1.Name = "cizgi1"
+cizgi1.Parent = frame1
+cizgi1.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+cizgi1.BackgroundTransparency = 1.000
+cizgi1.Position = UDim2.new(0, 0, 0.189473689, 0)
+cizgi1.Size = UDim2.new(0, 270, 0, 12)
+cizgi1.Font = Enum.Font.SourceSans
+cizgi1.Text = "_______________________________________________________"
+cizgi1.TextColor3 = Color3.fromRGB(255, 255, 255)
+cizgi1.TextSize = 14.000
+cizgi1.TextWrapped = true
+
+UICorner_4.Parent = cizgi1
+
+title2.Name = "title2"
+title2.Parent = frame1
+title2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+title2.Position = UDim2.new(0.040740855, 0, 0.563157916, 0)
+title2.Size = UDim2.new(0, 121, 0, 27)
+title2.Font = Enum.Font.SourceSans
+title2.Text = "Quest Progress :"
+title2.TextColor3 = Color3.fromRGB(255, 255, 255)
+title2.TextScaled = true
+title2.TextSize = 14.000
+title2.TextWrapped = true
+
+UICorner_5.Parent = title2
+
+terta1.Name = "terta1"
+terta1.Parent = frame1
+terta1.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+terta1.Position = UDim2.new(0.581481576, 0, 0.357894748, 0)
+terta1.Size = UDim2.new(0, 93, 0, 27)
+terta1.Font = Enum.Font.SourceSans
+terta1.Text = "/ nil /"
+terta1.TextColor3 = Color3.fromRGB(255, 255, 255)
+terta1.TextScaled = true
+terta1.TextSize = 14.000
+terta1.TextWrapped = true
+
+UICorner_6.Parent = terta1
+
+terta2.Name = "terta2"
+terta2.Parent = frame1
+terta2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+terta2.Position = UDim2.new(0.581481576, 0, 0.563157916, 0)
+terta2.Size = UDim2.new(0, 93, 0, 27)
+terta2.Font = Enum.Font.SourceSans
+terta2.Text = "/ nil /"
+terta2.TextColor3 = Color3.fromRGB(255, 255, 255)
+terta2.TextScaled = true
+terta2.TextSize = 14.000
+terta2.TextWrapped = true
+
+UICorner_7.Parent = terta2
+
+textlabel1_2.Name = "textlabel1"
+textlabel1_2.Parent = frame1
+textlabel1_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+textlabel1_2.Position = UDim2.new(0.67037046, 0, 0.857894719, 0)
+textlabel1_2.Size = UDim2.new(0, 80, 0, 20)
+textlabel1_2.Font = Enum.Font.SourceSans
+textlabel1_2.Text = "batusd#3009"
+textlabel1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+textlabel1_2.TextScaled = true
+textlabel1_2.TextSize = 14.000
+textlabel1_2.TextWrapped = true
+
+UICorner_8.Parent = textlabel1_2
+
+destroy.Name = "destroy"
+destroy.Parent = frame1
+destroy.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+destroy.Position = UDim2.new(0.851851821, 0, 0.0473684371, 0)
+destroy.Size = UDim2.new(0, 31, 0, 19)
+destroy.Font = Enum.Font.SourceSans
+destroy.Text = "X"
+destroy.TextColor3 = Color3.fromRGB(255, 255, 255)
+destroy.TextScaled = true
+destroy.TextSize = 14.000
+destroy.TextWrapped = true
+
+UICorner_9.Parent = destroy
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(16, 16, 16)), ColorSequenceKeypoint.new(0.27, Color3.fromRGB(16, 16, 16)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(66, 66, 66)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(45, 45, 45))}
+UIGradient.Parent = frame1
+
+local function STGQML_fake_script() -- terta1.LocalScript 
+	local script = Instance.new('LocalScript', terta1)
+
+	
+	while true do
+		local batusxd1 = require(game:GetService("ReplicatedStorage").Framework.Library)
+		local batusxd2 = batusxd1.Save.Get().ChristmasEventQuest.Stage or "n/a"
+		script.Parent.Text = (batusxd2)
+		wait(1.5)
+	end
+end
+coroutine.wrap(STGQML_fake_script)()
+local function IJMMCT_fake_script() -- terta2.LocalScript 
+	local script = Instance.new('LocalScript', terta2)
+
+	local batusxd5 = require(game:GetService("ReplicatedStorage").Framework.Library)
+	
+	local batusxd6 = batusxd5.Save.Get().ChristmasEventQuest.Progress or "n/a"
+	
+	while true do
+		local batusxd5 = require(game:GetService("ReplicatedStorage").Framework.Library)
+	
+		local batusxd6 = batusxd5.Save.Get().ChristmasEventQuest.Progress or "n/a"
+		
+		script.Parent.Text = (batusxd6)
+		wait(1.5)
+	end
+end
+coroutine.wrap(IJMMCT_fake_script)()
+local function WUSKK_fake_script() -- frame1.drag 
+	local script = Instance.new('LocalScript', frame1)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(WUSKK_fake_script)()
+local function NVYFCSY_fake_script() -- destroy.LocalScript 
+	local script = Instance.new('LocalScript', destroy)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.frame1:Destroy()
+	end)
+end
+coroutine.wrap(NVYFCSY_fake_script)()
+local function VUNAP_fake_script() -- frame1.background_animation 
+	local script = Instance.new('LocalScript', frame1)
+
+	local button = script.Parent
+	local gradient = button.UIGradient
+	local ts = game:GetService("TweenService") 
+	local ti = TweenInfo.new(1, Enum.EasingStyle.Circular, Enum.EasingDirection.Out)
+	local offset1 = {Offset = Vector2.new(1, 0)}
+	local create = ts:Create(gradient, ti, offset1)
+	local startingPos = Vector2.new(-1, 0) 
+	local addWait = 5
+	local function animate()
+		create:Play()
+		create.Completed:Wait()
+		gradient.Offset = startingPos 
+		create:Play() 
+		create.Completed:Wait()
+		wait(addWait)
+		gradient.Offset = startingPos
+		animate()
+	end
+	animate()
+end
+coroutine.wrap(VUNAP_fake_script)()
