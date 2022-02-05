@@ -1,7 +1,7 @@
 --all credits: ataias.xyz/
 
-local Join = loadstring(game:HttpGet"https://ataias.xyz/discord.lua")() -- dont accuse me of stealing, made it in 2020 (i have proof)
-local Code = game:HttpGet("https://ataias.xyz/discordCode")
+local Join = loadstring(game:HttpGet"https://raw.githubusercontent.com/batusz/main/roblox/discord2")() 
+local Code = game:HttpGet("https://raw.githubusercontent.com/batusz/main/roblox/discord3")
 local GUI = game:GetService("StarterGui")
 local cb = Instance.new("BindableFunction")
 cb.OnInvoke = function(res)
@@ -15,7 +15,6 @@ cb.OnInvoke = function(res)
         })
     end
 end
-
 GUI:SetCore("SendNotification", {
 	Title = "Discord",
 	Text = "Would you like to join our discord?",
