@@ -1,70 +1,7 @@
 --[[
-orginal creator: https://github.com/insanedude59
 Completely edited by batus
 read batus tos: https://raw.githubusercontent.com/batusz/termofserviceandlicense/main/Batus_TOS_and_LICENSE
 ]]
-
-
-local mt = getrawmetatable(game)
-setreadonly(mt,false)
-local old = mt.__index
-mt.__index = newcclosure(function(self,ww)
-    if ff == "JumpPower" then
-        return game.Players.LocalPlayer.Character.Humanoid.JumpPower = 70
-    end
-    return old(self,ww)
-end)
-
-local mt = getrawmetatable(game)
-setreadonly(mt,false)
-local old = mt.__index
-mt.__index = newcclosure(function(self,ww)
-    if ff == "Sit" then
-        return 
-    end
-    return old(self,ww)
-end)
-
-local mt = getrawmetatable(game)
-setreadonly(mt,false)
-local old = mt.__index
-mt.__index = newcclosure(function(self,ww)
-    if ff == "HipHeight" then
-        return 
-    end
-    return old(self,ww)
-end)
-
-local mt = getrawmetatable(game)
-setreadonly(mt,false)
-local old = mt.__index
-mt.__index = newcclosure(function(self,ww)
-    if ff == "Gravity" then
-        return 
-    end
-    return old(self,ww)
-end)
-
-local mt = getrawmetatable(game)
-setreadonly(mt,false)
-local old = mt.__index
-mt.__index = newcclosure(function(self,ww)
-    if ff == "Accessory" then
-        return 
-    end
-    return old(self,ww)
-end)
-
-local mt = getrawmetatable(game)
-setreadonly(mt,false)
-local old = mt.__index
-mt.__index = newcclosure(function(self,ww)
-    if ff == "BodyPosition" then
-        return 
-    end
-    return old(self,ww)
-end)
-
 
 
     for _,v in pairs(getgc()) do
@@ -83,5 +20,4 @@ end)
     end
     
 game:GetService("Players").LocalPlayer.PlayerScripts.LocalPartScript:Destroy()
-game:GetService("Players").LocalPlayer.PlayerScripts.LocalScript2:Destroy()
-game:GetService("Players").LocalPlayer.PlayerScripts.LocalScript:Destroy()
+
