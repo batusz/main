@@ -12,7 +12,7 @@ Read Batus TOS: https://raw.githubusercontent.com/batusz/termofserviceandlicense
 Game Link:          roblox.com/games/6284583030
 
 
-Last update: 18.02.2022
+Last update: 19.02.2022
 
 discord.gg/ggxPQbZj9R
 discord.gg/ggxPQbZj9R
@@ -47,6 +47,7 @@ if Bankid and user id shows / nil /
       
 
 ]]
+
 loadstring(game:HttpGet'https://raw.githubusercontent.com/batusz/main/roblox/discord1')()
 
 
