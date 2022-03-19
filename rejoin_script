@@ -1,0 +1,9 @@
+function rejjbatus()
+    local TPSRVC = game:GetService("TeleportService")
+local JjJ = game.JobId
+local batus = game:GetService("Players").LocalPlayer
+local gGgG = game.PlaceId
+TPSRVC:TeleportToPlaceInstance(gGgG, JjJ, batus)
+end
+
+rejjbatus()
