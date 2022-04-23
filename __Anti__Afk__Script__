@@ -1,5 +1,6 @@
 --[[
 I was bullied a lot for obfuscating a anti afk script
+blood of batus#9999
 ]]
 
 repeat wait() until game:IsLoaded() and game.Players and game.Players.LocalPlayer and game.Players.LocalPlayer.Character
