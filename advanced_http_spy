@@ -1,5 +1,6 @@
 --[[
 
+-- edit -- added https://api.luauth.xyz/
 
 
 
@@ -98,6 +99,9 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "grabify.link/";
     "grabify.link";
     "blasze.com";
+    
+    
+    "https://api.luauth.xyz/";
     
     
     -- KFC obfuscator
